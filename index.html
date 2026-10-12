@@ -3,14 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>To Truong An — Queen's University Belfast</title>
-<meta name="description" content="To Truong An, PhD student at the Centre for Wireless Innovation, Queen's University Belfast. Radio frequency fingerprint identification, quantum machine learning and wireless security.">
-<link rel="canonical" href="https://truong-an-to.github.io/">
+<title>To Truong An (Truong-An To) | PhD Researcher, Queen's University Belfast</title>
+<meta name="description" content="To Truong An (Truong-An To), PhD student at the Centre for Wireless Innovation, Queen's University Belfast. Radio frequency fingerprint identification, quantum machine learning and wireless security.">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "To Truong An",
+ "alternateName": [
+  "Truong-An To",
+  "An Truong To",
+  "Truong An To",
+  "T. T. An",
+  "A. T. To"
+ ],
+ "url": "https://totruongan.github.io/",
+ "image": "https://totruongan.github.io/photo.jpg",
+ "email": "mailto:ato01@qub.ac.uk",
+ "jobTitle": "PhD Researcher",
+ "affiliation": {
+  "@type": "Organization",
+  "name": "Centre for Wireless Innovation, Queen's University Belfast"
+ },
+ "alumniOf": [
+  {
+   "@type": "CollegeOrUniversity",
+   "name": "Sejong University"
+  },
+  {
+   "@type": "CollegeOrUniversity",
+   "name": "Ho Chi Minh City University of Technology and Education"
+  }
+ ],
+ "knowsAbout": [
+  "Radio frequency fingerprint identification",
+  "Quantum machine learning",
+  "Physical layer security",
+  "Automatic modulation classification",
+  "Wireless communications",
+  "6G"
+ ],
+ "sameAs": [
+  "https://scholar.google.com/citations?user=jpY-efoAAAAJ",
+  "https://orcid.org/0000-0002-9394-3387",
+  "https://www.linkedin.com/in/an-truong-to-500019197/",
+  "https://pure.qub.ac.uk/en/persons/an-truong-to/",
+  "https://github.com/totruongan"
+ ]
+}
+</script>
+<link rel="canonical" href="https://totruongan.github.io/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="To Truong An — Queen's University Belfast">
 <meta property="og:description" content="PhD student at the Centre for Wireless Innovation, Queen's University Belfast. Radio frequency fingerprint identification, quantum machine learning and wireless security.">
-<meta property="og:url" content="https://truong-an-to.github.io/">
-<meta property="og:image" content="https://truong-an-to.github.io/photo.jpg">
+<meta property="og:url" content="https://totruongan.github.io/">
+<meta property="og:image" content="https://totruongan.github.io/photo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -251,16 +298,6 @@ ol.pubs .title{font-weight:500}
 <h1>Research</h1>
 <p style="max-width:720px;color:var(--body)">Every radio transmitter carries small hardware imperfections that leave a unique trace in its signal, and machine learning can now read that trace to tell devices apart. The obstacle is cost: state-of-the-art models have many trainable parameters, which makes them hard to train and deploy on IoT hardware. My research asks how to keep these physical-layer models accurate while making them far cheaper, using quantum and hybrid quantum-classical machine learning.</p>
 </div>
-
-<section class="block">
-<h2>Research Thrusts</h2>
-<ul class="list">
-<li><span class="key">RFFI</span><div class="val"><h3>Lightweight RF fingerprint identification for IoT</h3><p class="sub">Existing RFFI models are often too large for IoT applications. I augmented a classical neural network with an intermediate quantum neural network stage to authenticate LoRa devices, giving a much smaller memory footprint with accuracy competitive with conventional deep learning.</p><p class="sub" style="margin-top:6px">Related: <a href="#publications">[J5]</a>, <a href="#publications">[C1]</a></p></div></li>
-<li><span class="key">Quantum ML</span><div class="val"><h3>Quantum-assisted training</h3><p class="sub">In QAST, a quantum neural network combined with a classical network generates the parameters of a deep learning model instead of training them directly. This indirect strategy trains an RFFI model with 90% fewer trainable parameters while keeping comparable accuracy, and extends to other parameter-heavy tasks such as Wi-Fi sensing.</p><p class="sub" style="margin-top:6px">Related: <a href="#publications">[J5]</a>, <a href="#publications">[C2]</a>, <a href="#publications">[J4]</a></p></div></li>
-<li><span class="key">AMC</span><div class="val"><h3>Automatic modulation classification</h3><p class="sub">Deep learning classifiers that stay robust at low signal-to-noise ratio, and low-complexity architectures suited to adaptive coding and modulation in 6G systems.</p><p class="sub" style="margin-top:6px">Related: <a href="#publications">[J1]</a>, <a href="#publications">[J3]</a>, <a href="#publications">[Pa1]</a>, <a href="#publications">[Pa2]</a></p></div></li>
-<li><span class="key">Sensing</span><div class="val"><h3>Wi-Fi-based human activity recognition</h3><p class="sub">Wi-Fi-based HAR models are memory-hungry in both training and inference. Q-MET uses a hybrid quantum-classical network to generate the parameters of the HAR model, cutting trainable parameters by 90–95% while matching or exceeding classical accuracy, and adds structured pruning so the final model fits resource-constrained devices.</p><p class="sub" style="margin-top:6px">Related: <a href="#publications">[J4]</a></p></div></li>
-</ul>
-</section>
 
 <!-- DATASETS & CODE: to add later, paste this block here and fill it in
 <section class="block">
