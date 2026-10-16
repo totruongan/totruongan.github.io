@@ -72,6 +72,7 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
 .wrap{max-width:1080px;margin:0 auto;padding:0 32px}
 .todo{background:#FFF3CC}
 .popular{color:#0B5C8A;font-weight:600}
+.jif{color:var(--ink);font-weight:700;white-space:nowrap}
 .classic .list .sub.popular{color:#0B5C8A}
 
 header{border-bottom:1px solid var(--rule);background:#fff;position:sticky;top:0;z-index:5}
@@ -150,6 +151,18 @@ ol.pubs .title{font-weight:500}
 .classic .ref p{color:var(--muted2);font-size:15px}
 .classic .ref a{margin-top:10px;font-size:15px}
 
+.classic .overview{margin:0}
+.classic .overview-scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:8px;padding:16px;background:#fff}
+.classic .overview svg{display:block;width:100%;height:auto}
+.classic .overview .ov-mobile{display:none;max-width:400px;margin:0 auto}
+@media (max-width:700px){.classic .overview .ov-desktop{display:none}.classic .overview .ov-mobile{display:block}.classic .overview-scroll{padding:10px}}
+.classic .overview figcaption{margin-top:12px;font-size:14px;color:var(--faint);max-width:760px}
+.classic .areas{display:flex;flex-wrap:wrap;gap:20px;margin-top:16px}
+.classic .area{flex:1 1 260px;min-width:0;border-top:3px solid var(--c);background:var(--soft);border-radius:0 0 8px 8px;padding:20px 20px 22px}
+.classic .area-icon{width:32px;height:32px;color:var(--c);display:block;margin-bottom:10px}
+.classic .area h3{margin:0 0 8px}
+.classic .area p{color:var(--muted2);font-size:15px}
+
 @media (max-width:640px){
   .wrap{padding:0 20px}
   .home{padding-top:32px}
@@ -213,9 +226,9 @@ ol.pubs .title{font-weight:500}
 
 <h2>Selected Publications</h2>
 <ol class="pubs">
-<li><span class="num">J5</span><span class="entry"><strong>T. T. An</strong>, G. Yin, J. Zhang, Y. Ding, T. Q. Duong, and S. L. Cotton, <span class="title">“A Quantum-Optimized Training Framework for Radio Frequency Fingerprint Identification,”</span> <em>IEEE J. Sel. Areas Commun.</em>, 2026. <a href="https://doi.org/10.1109/JSAC.2026.3706263">DOI</a></span></li>
-<li><span class="num">J4</span><span class="entry"><strong>T. T. An</strong>, J. Zhang, G. Yin, J. Zhang, Y. Li, T. Q. Duong, and S. L. Cotton, <span class="title">“Quantum-Assisted Memory-Efficient Training for Parameter-Intensive Wi-Fi-Based Human Activity Recognition,”</span> <em>IEEE Trans. Netw. Sci. Eng.</em>, 2026. <a href="https://doi.org/10.1109/TNSE.2026.3725484">DOI</a></span></li>
-<li><span class="num">J3</span><span class="entry"><strong>T. T. An</strong>, A. Argyriou, A. A. Puspitasari, S. L. Cotton, and B. M. Lee, <span class="title">“Efficient Automatic Modulation Classification for Next-Generation Wireless Networks,”</span> <em>IEEE Trans. Green Commun. Netw.</em>, 2026. <a href="https://doi.org/10.1109/TGCN.2025.3574278">DOI</a> <span class="popular">Popular paper, Jan–Sep 2026</span></span></li>
+<li><span class="num">J5</span><span class="entry"><strong>T. T. An</strong>, G. Yin, J. Zhang, Y. Ding, T. Q. Duong, and S. L. Cotton, <span class="title">“A Quantum-Optimized Training Framework for Radio Frequency Fingerprint Identification,”</span> <em>IEEE Journal on Selected Areas in Communications</em>, 2026. <a href="https://doi.org/10.1109/JSAC.2026.3706263">DOI</a> <span class="jif">[IF: 16.8]</span></span></li>
+<li><span class="num">J4</span><span class="entry"><strong>T. T. An</strong>, J. Zhang, G. Yin, J. Zhang, Y. Li, T. Q. Duong, and S. L. Cotton, <span class="title">“Quantum-Assisted Memory-Efficient Training for Parameter-Intensive Wi-Fi-Based Human Activity Recognition,”</span> <em>IEEE Transactions on Network Science and Engineering</em>, 2026. <a href="https://doi.org/10.1109/TNSE.2026.3725484">DOI</a> <span class="jif">[IF: 7.3]</span></span></li>
+<li><span class="num">J3</span><span class="entry"><strong>T. T. An</strong>, A. Argyriou, A. A. Puspitasari, S. L. Cotton, and B. M. Lee, <span class="title">“Efficient Automatic Modulation Classification for Next-Generation Wireless Networks,”</span> <em>IEEE Transactions on Green Communications and Networking</em>, 2026. <a href="https://doi.org/10.1109/TGCN.2025.3574278">DOI</a> <span class="popular">Popular paper, Jan–Sep 2026</span> <span class="jif">[IF: 6.9]</span></span></li>
 </ol>
 <p class="small"><a href="#publications">Full publication list</a></p>
 
@@ -271,11 +284,11 @@ ol.pubs .title{font-weight:500}
 <section class="block">
 <h2>Journal Articles</h2>
 <ul class="list">
-<li><span class="key">[J5]</span><div class="val"><p><strong>T. T. An</strong>, G. Yin, J. Zhang, Y. Ding, T. Q. Duong, and S. L. Cotton, “A Quantum-Optimized Training Framework for Radio Frequency Fingerprint Identification,” <em>IEEE Journal on Selected Areas in Communications</em>, vol. 44, pp. 5327–5340, 2026.</p><div class="tags"><a class="tag" href="https://doi.org/10.1109/JSAC.2026.3706263">DOI</a><a class="tag" href="https://pure.qub.ac.uk/en/publications/a-quantum-optimized-training-framework-for-radio-frequency-finger/">Open access</a></div></div></li>
-<li><span class="key">[J4]</span><div class="val"><p><strong>T. T. An</strong>, J. Zhang, G. Yin, J. Zhang, Y. Li, T. Q. Duong, and S. L. Cotton, “Quantum-Assisted Memory-Efficient Training for Parameter-Intensive Wi-Fi-Based Human Activity Recognition,” <em>IEEE Transactions on Network Science and Engineering</em>, vol. 13, pp. 11266–11282, 2026.</p><div class="tags"><a class="tag" href="https://doi.org/10.1109/TNSE.2026.3725484">DOI</a><a class="tag" href="https://arxiv.org/abs/2609.04271">arXiv</a></div></div></li>
-<li><span class="key">[J3]</span><div class="val"><p><strong>T. T. An</strong>, A. Argyriou, A. A. Puspitasari, S. L. Cotton, and B. M. Lee, “Efficient Automatic Modulation Classification for Next-Generation Wireless Networks,” <em>IEEE Transactions on Green Communications and Networking</em>, vol. 10, pp. 249–259, 2026.</p><p class="sub popular" style="margin-top:4px">Popular paper, January–September 2026</p><div class="tags"><a class="tag" href="https://doi.org/10.1109/TGCN.2025.3574278">DOI</a></div></div></li>
-<li><span class="key">[J2]</span><div class="val"><p>A. A. Puspitasari, <strong>T. T. An</strong>, M. H. Alsharif, and B. M. Lee, “Emerging Technologies for 6G Communication Networks: Machine Learning Approaches,” <em>Sensors</em>, vol. 23, no. 18, art. 7709, 2023.</p><div class="tags"><a class="tag" href="https://doi.org/10.3390/s23187709">DOI</a></div></div></li>
-<li><span class="key">[J1]</span><div class="val"><p><strong>T. T. An</strong> and B. M. Lee, “Robust Automatic Modulation Classification in Low Signal to Noise Ratio,” <em>IEEE Access</em>, vol. 11, pp. 7860–7872, 2023.</p><div class="tags"><a class="tag" href="https://doi.org/10.1109/ACCESS.2023.3238995">DOI</a></div></div></li>
+<li><span class="key">[J5]</span><div class="val"><p><strong>T. T. An</strong>, G. Yin, J. Zhang, Y. Ding, T. Q. Duong, and S. L. Cotton, “A Quantum-Optimized Training Framework for Radio Frequency Fingerprint Identification,” <em>IEEE Journal on Selected Areas in Communications</em>, vol. 44, pp. 5327–5340, 2026. <span class="jif">[IF: 16.8]</span></p><div class="tags"><a class="tag" href="https://doi.org/10.1109/JSAC.2026.3706263">DOI</a><a class="tag" href="https://pure.qub.ac.uk/en/publications/a-quantum-optimized-training-framework-for-radio-frequency-finger/">Open access</a></div></div></li>
+<li><span class="key">[J4]</span><div class="val"><p><strong>T. T. An</strong>, J. Zhang, G. Yin, J. Zhang, Y. Li, T. Q. Duong, and S. L. Cotton, “Quantum-Assisted Memory-Efficient Training for Parameter-Intensive Wi-Fi-Based Human Activity Recognition,” <em>IEEE Transactions on Network Science and Engineering</em>, vol. 13, pp. 11266–11282, 2026. <span class="jif">[IF: 7.3]</span></p><div class="tags"><a class="tag" href="https://doi.org/10.1109/TNSE.2026.3725484">DOI</a><a class="tag" href="https://arxiv.org/abs/2609.04271">arXiv</a></div></div></li>
+<li><span class="key">[J3]</span><div class="val"><p><strong>T. T. An</strong>, A. Argyriou, A. A. Puspitasari, S. L. Cotton, and B. M. Lee, “Efficient Automatic Modulation Classification for Next-Generation Wireless Networks,” <em>IEEE Transactions on Green Communications and Networking</em>, vol. 10, pp. 249–259, 2026. <span class="jif">[IF: 6.9]</span></p><p class="sub popular" style="margin-top:4px">Popular paper, January–September 2026</p><div class="tags"><a class="tag" href="https://doi.org/10.1109/TGCN.2025.3574278">DOI</a></div></div></li>
+<li><span class="key">[J2]</span><div class="val"><p>A. A. Puspitasari, <strong>T. T. An</strong>, M. H. Alsharif, and B. M. Lee, “Emerging Technologies for 6G Communication Networks: Machine Learning Approaches,” <em>Sensors</em>, vol. 23, no. 18, art. 7709, 2023. <span class="jif">[IF: 4.0]</span></p><div class="tags"><a class="tag" href="https://doi.org/10.3390/s23187709">DOI</a></div></div></li>
+<li><span class="key">[J1]</span><div class="val"><p><strong>T. T. An</strong> and B. M. Lee, “Robust Automatic Modulation Classification in Low Signal to Noise Ratio,” <em>IEEE Access</em>, vol. 11, pp. 7860–7872, 2023. <span class="jif">[IF: 4.2]</span></p><div class="tags"><a class="tag" href="https://doi.org/10.1109/ACCESS.2023.3238995">DOI</a></div></div></li>
 </ul>
 </section>
 
@@ -301,8 +314,136 @@ ol.pubs .title{font-weight:500}
 <section class="page classic" id="research">
 <div class="pagehead">
 <h1>Research</h1>
-<p style="max-width:720px;color:var(--body)">Every radio transmitter carries small hardware imperfections that leave a unique trace in its signal, and machine learning can now read that trace to tell devices apart. The obstacle is cost: state-of-the-art models have many trainable parameters, which makes them hard to train and deploy on IoT hardware. My research asks how to keep these physical-layer models accurate while making them far cheaper, using quantum and hybrid quantum-classical machine learning.</p>
+<p style="max-width:720px;color:var(--body)">My research applies machine learning to the wireless physical layer, with a focus on making these models both accurate and practical to deploy.</p>
 </div>
+
+
+<section class="block">
+<figure class="overview">
+<div class="overview-scroll">
+<svg class="ov-desktop" viewBox="0 0 960 300" role="img" aria-labelledby="ovTitle ovDesc" font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<title id="ovTitle">Research overview</title>
+<desc id="ovDesc">An IoT device transmits a signal carrying a fingerprint from its hardware imperfections. A learning model built with efficient AI and quantum machine learning reads the fingerprint and identifies the device.</desc>
+<defs>
+<marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0B5C8A"/></marker>
+</defs>
+<!-- RFFI bracket -->
+<text x="480" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#0B5C8A">Radio Frequency Fingerprint Identification (RFFI)</text>
+<path d="M20 52 V38 H940 V52" fill="none" stroke="#0B5C8A" stroke-width="1.5"/>
+<!-- Device -->
+<rect x="20" y="70" width="170" height="190" rx="12" fill="#F5F7F9" stroke="#C9D1D9"/>
+<rect x="72" y="92" width="56" height="48" rx="6" fill="#fff" stroke="#16202A" stroke-width="1.5"/>
+<path d="M82 92 v-7 M94 92 v-7 M106 92 v-7 M118 92 v-7 M82 140 v7 M94 140 v7 M106 140 v7 M118 140 v7" stroke="#16202A" stroke-width="1.5"/>
+<line x1="150" y1="116" x2="150" y2="86" stroke="#16202A" stroke-width="1.5"/><circle cx="150" cy="83" r="3.5" fill="#16202A"/>
+<text x="105" y="176" text-anchor="middle" font-size="15" font-weight="600" fill="#16202A">IoT device</text>
+<text x="105" y="200" text-anchor="middle" font-size="12" fill="#56636F">Hardware imperfections:</text>
+<text x="105" y="216" text-anchor="middle" font-size="12" fill="#56636F">I/Q imbalance, carrier</text>
+<text x="105" y="232" text-anchor="middle" font-size="12" fill="#56636F">offset, PA nonlinearity</text>
+<!-- Signal -->
+<text x="285" y="122" text-anchor="middle" font-size="13" font-weight="600" fill="#16202A">Transmitted signal</text>
+<path d="M200 165 q9 -30 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="#0B5C8A" stroke-width="2.5"/>
+<path d="M200 165 q9 -24 18 2 t18 -3 t18 2 t18 -2 t18 3 t18 -2 t18 2 t18 -1" fill="none" stroke="#D9822B" stroke-width="1.5" stroke-dasharray="3 3"/>
+<line x1="345" y1="165" x2="378" y2="165" stroke="#0B5C8A" stroke-width="2" marker-end="url(#arw)"/>
+<text x="285" y="206" text-anchor="middle" font-size="12" fill="#56636F">carries a unique</text>
+<text x="285" y="222" text-anchor="middle" font-size="12" fill="#D9822B" font-weight="600">RF fingerprint</text>
+<!-- Model -->
+<rect x="385" y="66" width="330" height="198" rx="14" fill="#EEF4F8" stroke="#0B5C8A" stroke-width="1.5"/>
+<text x="550" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#16202A">Learning model</text>
+<rect x="398" y="104" width="152" height="146" rx="10" fill="#fff" stroke="#0B5C8A"/>
+<text x="474" y="125" text-anchor="middle" font-size="13" font-weight="600" fill="#0B5C8A">Efficient AI</text>
+<g stroke="#9DB7CA" stroke-width="1">
+<path d="M437 146 L474 158 M437 146 L474 184 M437 172 L474 158 M437 172 L474 184 M437 198 L474 158 M437 198 L474 184 M474 158 L511 171 M474 184 L511 171"/>
+</g>
+<g fill="#0B5C8A"><circle cx="437" cy="146" r="5"/><circle cx="437" cy="172" r="5"/><circle cx="437" cy="198" r="5"/><circle cx="474" cy="158" r="5"/><circle cx="474" cy="184" r="5"/><circle cx="511" cy="171" r="5"/></g>
+<text x="474" y="224" text-anchor="middle" font-size="12" fill="#56636F">fewer parameters,</text>
+<text x="474" y="239" text-anchor="middle" font-size="12" fill="#56636F">lower training cost</text>
+<rect x="560" y="104" width="142" height="146" rx="10" fill="#fff" stroke="#6B4FA0"/>
+<text x="631" y="125" text-anchor="middle" font-size="13" font-weight="600" fill="#6B4FA0">Quantum ML</text>
+<g stroke="#6B4FA0" stroke-width="1.3"><line x1="574" y1="148" x2="688" y2="148"/><line x1="574" y1="172" x2="688" y2="172"/><line x1="574" y1="196" x2="688" y2="196"/></g>
+<g fill="#E9E2F4" stroke="#6B4FA0"><rect x="584" y="140" width="18" height="16" rx="3"/><rect x="584" y="164" width="18" height="16" rx="3"/><rect x="584" y="188" width="18" height="16" rx="3"/><rect x="656" y="188" width="18" height="16" rx="3"/></g>
+<line x1="630" y1="148" x2="630" y2="179" stroke="#6B4FA0" stroke-width="1.5"/>
+<circle cx="630" cy="148" r="4" fill="#6B4FA0"/>
+<circle cx="630" cy="172" r="7" fill="#fff" stroke="#6B4FA0" stroke-width="1.5"/>
+<path d="M623 172 h14 M630 165 v14" stroke="#6B4FA0" stroke-width="1.5"/>
+<text x="631" y="224" text-anchor="middle" font-size="12" fill="#56636F">hybrid quantum-</text>
+<text x="631" y="239" text-anchor="middle" font-size="12" fill="#56636F">classical circuits</text>
+<line x1="715" y1="165" x2="745" y2="165" stroke="#0B5C8A" stroke-width="2" marker-end="url(#arw)"/>
+<!-- Output -->
+<rect x="752" y="70" width="188" height="190" rx="12" fill="#F5F7F9" stroke="#C9D1D9"/>
+<circle cx="846" cy="124" r="26" fill="#E6F4EA" stroke="#1E7B45" stroke-width="1.5"/>
+<path d="M834 125 l8 8 l16 -17" fill="none" stroke="#1E7B45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="846" y="176" text-anchor="middle" font-size="15" font-weight="600" fill="#16202A">Device identity</text>
+<text x="846" y="200" text-anchor="middle" font-size="12" fill="#56636F">authenticate known</text>
+<text x="846" y="216" text-anchor="middle" font-size="12" fill="#56636F">devices, reject</text>
+<text x="846" y="232" text-anchor="middle" font-size="12" fill="#56636F">impostors</text>
+</svg>
+<svg class="ov-mobile" viewBox="0 0 340 560" role="img" aria-label="Research overview: an IoT device's signal carries an RF fingerprint, which an efficient and quantum learning model reads to identify the device." font-family="'IBM Plex Sans','Helvetica Neue',Arial,sans-serif">
+<defs><marker id="arw2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0B5C8A"/></marker></defs>
+<text x="170" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="#0B5C8A">Radio Frequency Fingerprint Identification</text>
+<rect x="10" y="32" width="320" height="104" rx="12" fill="#F5F7F9" stroke="#C9D1D9"/>
+<rect x="32" y="56" width="50" height="44" rx="6" fill="#fff" stroke="#16202A" stroke-width="1.5"/>
+<path d="M41 56 v-6 M52 56 v-6 M63 56 v-6 M74 56 v-6 M41 100 v6 M52 100 v6 M63 100 v6 M74 100 v6" stroke="#16202A" stroke-width="1.5"/>
+<text x="104" y="66" font-size="15" font-weight="600" fill="#16202A">IoT device</text>
+<text x="104" y="88" font-size="12" fill="#56636F">Hardware imperfections: I/Q</text>
+<text x="104" y="104" font-size="12" fill="#56636F">imbalance, carrier offset,</text>
+<text x="104" y="120" font-size="12" fill="#56636F">PA nonlinearity</text>
+<path d="M60 172 q8 -24 16 0 t16 0 t16 0 t16 0 t16 0 t16 0" fill="none" stroke="#0B5C8A" stroke-width="2.5"/>
+<path d="M60 172 q8 -19 16 2 t16 -3 t16 2 t16 -2 t16 3 t16 -1" fill="none" stroke="#D9822B" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="168" y="160" font-size="13" font-weight="600" fill="#16202A">Transmitted signal</text>
+<text x="168" y="178" font-size="12" fill="#56636F">carries a unique</text>
+<text x="168" y="194" font-size="12" fill="#D9822B" font-weight="600">RF fingerprint</text>
+<line x1="170" y1="200" x2="170" y2="222" stroke="#0B5C8A" stroke-width="2" marker-end="url(#arw2)"/>
+<rect x="10" y="228" width="320" height="196" rx="14" fill="#EEF4F8" stroke="#0B5C8A" stroke-width="1.5"/>
+<text x="170" y="252" text-anchor="middle" font-size="15" font-weight="600" fill="#16202A">Learning model</text>
+<rect x="22" y="264" width="144" height="146" rx="10" fill="#fff" stroke="#0B5C8A"/>
+<text x="94" y="284" text-anchor="middle" font-size="13" font-weight="600" fill="#0B5C8A">Efficient AI</text>
+<path d="M58 304 L94 316 M58 304 L94 342 M58 330 L94 316 M58 330 L94 342 M58 356 L94 316 M58 356 L94 342 M94 316 L130 329 M94 342 L130 329" stroke="#9DB7CA" stroke-width="1"/>
+<g fill="#0B5C8A"><circle cx="58" cy="304" r="5"/><circle cx="58" cy="330" r="5"/><circle cx="58" cy="356" r="5"/><circle cx="94" cy="316" r="5"/><circle cx="94" cy="342" r="5"/><circle cx="130" cy="329" r="5"/></g>
+<text x="94" y="382" text-anchor="middle" font-size="12" fill="#56636F">fewer parameters,</text>
+<text x="94" y="397" text-anchor="middle" font-size="12" fill="#56636F">lower training cost</text>
+<rect x="174" y="264" width="144" height="146" rx="10" fill="#fff" stroke="#6B4FA0"/>
+<text x="246" y="284" text-anchor="middle" font-size="13" font-weight="600" fill="#6B4FA0">Quantum ML</text>
+<g stroke="#6B4FA0" stroke-width="1.3"><line x1="188" y1="306" x2="304" y2="306"/><line x1="188" y1="330" x2="304" y2="330"/><line x1="188" y1="354" x2="304" y2="354"/></g>
+<g fill="#E9E2F4" stroke="#6B4FA0"><rect x="198" y="298" width="18" height="16" rx="3"/><rect x="198" y="322" width="18" height="16" rx="3"/><rect x="198" y="346" width="18" height="16" rx="3"/><rect x="272" y="346" width="18" height="16" rx="3"/></g>
+<line x1="246" y1="306" x2="246" y2="337" stroke="#6B4FA0" stroke-width="1.5"/>
+<circle cx="246" cy="306" r="4" fill="#6B4FA0"/>
+<circle cx="246" cy="330" r="7" fill="#fff" stroke="#6B4FA0" stroke-width="1.5"/>
+<path d="M239 330 h14 M246 323 v14" stroke="#6B4FA0" stroke-width="1.5"/>
+<text x="246" y="382" text-anchor="middle" font-size="12" fill="#56636F">hybrid quantum-</text>
+<text x="246" y="397" text-anchor="middle" font-size="12" fill="#56636F">classical circuits</text>
+<line x1="170" y1="424" x2="170" y2="448" stroke="#0B5C8A" stroke-width="2" marker-end="url(#arw2)"/>
+<rect x="10" y="454" width="320" height="96" rx="12" fill="#F5F7F9" stroke="#C9D1D9"/>
+<circle cx="56" cy="502" r="24" fill="#E6F4EA" stroke="#1E7B45" stroke-width="1.5"/>
+<path d="M45 503 l7 7 l15 -16" fill="none" stroke="#1E7B45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="96" y="492" font-size="15" font-weight="600" fill="#16202A">Device identity</text>
+<text x="96" y="512" font-size="12" fill="#56636F">authenticate known devices,</text>
+<text x="96" y="528" font-size="12" fill="#56636F">reject impostors</text>
+</svg>
+</div>
+<figcaption>My research at a glance: each device’s hardware imperfections leave a fingerprint in its signal, and compact learning models built with efficient AI and quantum machine learning read that fingerprint to identify the device on low-cost IoT hardware.</figcaption>
+</figure>
+</section>
+
+<section class="block">
+<h2>Research Areas</h2>
+<div class="areas">
+<article class="area" style="--c:#0B5C8A">
+<svg class="area-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 16 q3.25 -9 6.5 0 t6.5 0 t6.5 0 t6.5 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+<h3>Radio Frequency Fingerprint Identification (RFFI)</h3>
+<p>Identifying and authenticating wireless devices from the unique hardware imperfections imprinted on their transmitted signals.</p>
+</article>
+<article class="area" style="--c:#1E7B45">
+<svg class="area-icon" viewBox="0 0 32 32" aria-hidden="true"><rect x="8" y="8" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 8V4M16 8V4M20 8V4M12 28v-4M16 28v-4M20 28v-4M8 12H4M8 20H4M28 12h-4M28 20h-4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+<h3>Efficient AI for Wireless Communication</h3>
+<p>Designing lightweight learning models that keep high accuracy while reducing parameters, training cost, and deployment overhead on IoT hardware.</p>
+</article>
+<article class="area" style="--c:#6B4FA0">
+<svg class="area-icon" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.2"/><ellipse cx="16" cy="16" rx="11" ry="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 16 L23 8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="23" cy="8" r="2.2" fill="currentColor"/></svg>
+<h3>Quantum Machine Learning for Wireless Communication</h3>
+<p>Exploring quantum and hybrid quantum-classical models as compact, expressive alternatives for physical-layer tasks.</p>
+</article>
+</div>
+</section>
 
 <!-- DATASETS & CODE: to add later, paste this block here and fill it in
 <section class="block">
